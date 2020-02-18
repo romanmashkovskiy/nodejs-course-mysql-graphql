@@ -1,10 +1,5 @@
 const Todo = require('../models/todo');
 
-const users = [
-    {name: 'user1', age: 30, email: 'user1@email.com'},
-    {name: 'user2', age: 50, email: 'user2@email.com'},
-];
-
 module.exports = {
     getTodos: async () => {
         try {
